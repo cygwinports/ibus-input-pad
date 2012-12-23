@@ -1,5 +1,0 @@
-category: X11
-requires: ibus libglib2.0_0 libgtk2.0_0 libibus1.0_0 libinput-pad1 libintl8
-sdesc: "IBus input pad input method engine"
-ldesc: "Input Pad is a tool to send characters to text applications by 
-clicking various buttons as an IBus input method."
