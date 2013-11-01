@@ -9,6 +9,4 @@ DESCRIPTION="Input Pad is a tool to send characters to text applications by
 clicking various buttons as an IBus input method."
 REQUIRES="ibus"
 HOMEPAGE="http://code.google.com/p/input-pad/"
-SRC_URI="http://input-pad.googlecode.com/files/${P}.tar.gz"
-
-CYGCONF_ARGS="--libexecdir=/usr/lib/ibus"
+SRC_URI="http://input-pad.googlecode.com/files/${NAME}-${VERSION}.tar.gz"
