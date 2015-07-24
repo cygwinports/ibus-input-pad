@@ -1,12 +1,13 @@
 inherit gnome2
 
 NAME="ibus-input-pad"
-VERSION=1.4.0
-RELEASE=2
+VERSION=1.4.99.20140916
+RELEASE=1
 CATEGORY="X11"
 SUMMARY="IBus input pad input method engine"
 DESCRIPTION="Input Pad is a tool to send characters to text applications by
 clicking various buttons as an IBus input method."
 REQUIRES="ibus"
-HOMEPAGE="http://code.google.com/p/input-pad/"
-SRC_URI="http://input-pad.googlecode.com/files/${NAME}-${VERSION}.tar.gz"
+HOMEPAGE="https://github.com/fujiwarat/ibus-input-pad/"
+SRC_URI="https://github.com/fujiwarat/ibus-input-pad/archive/${VERSION}/${NAME}-${VERSION}.tar.gz"
+PATCH_URI="1.4.99-vpath.patch"
